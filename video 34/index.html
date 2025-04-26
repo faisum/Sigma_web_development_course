@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <style>
+        img{
+            float: left;
+        }
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid red;
+        }
+        .card:nth-child(2){
+            background-color: blueviolet;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://www.desktopdress.com/desktopwallpapers/flowers/rose-for-the-special-love.jpg" width="450px" alt="">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa error eveniet autem commodi excepturi exercitationem, illo harum delectus, necessitatibus minima eaque, tempora optio perspiciatis beatae minus voluptatem culpa ab vitae pariatur obcaecati perferendis aliquam non id! Accusantium soluta vitae expedita, beatae veniam pariatur nihil consectetur!</p>
+        </div>
+        <div class="card">card2</div>
+        <div class="card">card3</div>
+    </div>
+</body>
+</html>

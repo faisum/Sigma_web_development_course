@@ -1,0 +1,1 @@
+i=prompt("Enter a number")

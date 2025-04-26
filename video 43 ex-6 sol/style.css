@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}

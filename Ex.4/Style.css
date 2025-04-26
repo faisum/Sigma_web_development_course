@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div ul li{
+    list-style: none;
+    margin: 20px 54px;
+}
+:root{
+    --color: rgb(12, 194, 37);
+}
+div ul{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color);
+}
+.box1{
+    width: 450px;
+    height: 355px;
+    margin: auto;
+    background-color: rgb(38, 189, 189);
+}
+.box2{
+    width: 450px;
+    height: 355px;
+    background-color: rgb(118, 231, 118);
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.cont p{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.foot{
+    width: auto;
+    height: 30px;
+    margin: 80px 0;
+    padding: 10px 0;
+    background-color: blue;
+}

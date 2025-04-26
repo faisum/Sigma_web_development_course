@@ -1,0 +1,45 @@
+.card{
+    width: 198px;
+    height: 344px;
+    border-radius: 7px;
+    background-color: white;
+    padding: 0 0 24px;
+}
+body{
+    background-color: grey;
+}
+.image{
+    padding: 5px;
+    
+}
+.image img{
+    border-radius: 7px;
+}
+.capsule1{
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.capsule2{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.capsule{
+    margin: 0 5px 10px ;
+    
+}
+.button button{
+    border: 1px solid rgb(172, 172, 219);
+    align-content: center;
+    margin: 0px  5px 0px 50px;
+    color: rgb(24, 24, 206);
+    background-color: rgb(139, 139, 231);
+    border-radius: 5px;
+}
+p{
+    font-size: 13px;
+    margin: 5px;
+}
+h3{
+    margin: 5px;
+}
